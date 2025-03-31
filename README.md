@@ -25,10 +25,15 @@
 - 章节内容仅支持txt格式，输入其他格式会报错。
 - pdf文件加载暂不支持。
 
+## 配置API Key
+在程序运行前，通过环境变量配置API Key：
+```python
+import os
+
+os.environ["DEEPSEEK_API_KEY"] = "xxxxxx"  # 请替换为实际的deepseek API Key
+
 ## 示例代码
 
-```python
-# 参数示例
 config = {
     "chapter": [
         "content路径1",
