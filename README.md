@@ -46,4 +46,6 @@ questions = question_maker(**config)
 ## 缓存说明
 
 - 生成的题目将自动缓存在`question_maker/questions`目录中，方便后续查看。
+## 许可
+- 本项目采用MIT License，详情请查看LICENSE文件。
 
